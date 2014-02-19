@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+category : angular
+tagline: "If you’re building a web app (tree, search, etc) yes. Else probably not."
+tags : [angular.js, javascript]
 ---
 {% include JB/setup %}
 
