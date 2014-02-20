@@ -79,7 +79,7 @@ yourself a little client-side functionality.
 I really want to reiterate this one. Any framework is just too "big and bloated"
 to be used as a toolset if you don’t need most of the tools. If all you wanted
 was jQuery’s dom-selection, you probably want [Sizzle](http://sizzlejs.com/).
-If all you wanted was Underscore’s \_extend, only [use the function](http://underscorejs.org/docs/underscore.html#section-84)
+If all you wanted was Underscore’s extend, only [use the function](http://underscorejs.org/docs/underscore.html#section-84)
 (paste that function in your code, documenting accordingly). If all you need is
 Angular#Directive, you might just need [Controls](https://github.com/schlegelrock/Control.js).
 

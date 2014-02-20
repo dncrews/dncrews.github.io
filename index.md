@@ -11,7 +11,7 @@ tagline: "You're welcome, world"
   Tags: {% for tag in post.tags %} [{{ tag }}](/tags.html#{{ tag }});  {% endfor %}
 # [{{ post.title }}]({{ post.url }})
   
-  <summary>{{ post.content | more: "excerpt" }}</summary>
+  <summary>{{ post.excerpt }}</summary>
   [More…]({{ post.url }})
 
 {% endfor %}
