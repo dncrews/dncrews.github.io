@@ -10,7 +10,7 @@ tags : [framework, javascript, angular.js, ember.js, backbone.js]
 
 ***tl;dr: If you’re building a web app yes. Else no.***
 
-# Purpose
+## Purpose
 
 JS Frameworks are wonderful. They provide a great set of tools to do all of the
 boring stuff no one wants to write over and over again. In our world, people often
@@ -20,7 +20,9 @@ I wrote [basically] the following in an email to our discipline. You will find I
 say "Angular.js" a lot for 2 reasons: 1) that's the framework we chose for our own,
 2) I was trying to make a point, so I reiterated the topic often.
 
-# JS Frameworks are good at what they're good at
+<!--more-->
+
+## JS Frameworks are good at what they're good at
 
 Angular.js is a framework for building rich, client-driven web applications.
 Angular.js is not a tool to make websites. Take Node.js for example: if I
@@ -31,7 +33,7 @@ something that isn’t very dynamic and is (and should be) just server-rendered
 information that is not going to have interaction, I would not choose Angular.
 
 
-# Angular.js is our choice for front-end applications
+## Angular.js is our choice for front-end applications
 
 When we decided we wanted to change from using our own home-grown solution for
 building a single-page app to using a community-grown one, we looked at a few
@@ -43,7 +45,7 @@ of the same decisions we did. With that and other wins, we went with Angular.js
 as our choice.
 
 
-# JS Frameworks are NOT for everyone
+## JS Frameworks are NOT for everyone
 
 If you - as a theoretical FamilySearch Front-end Dev - are building a [single-page] web
 application, you should be using Angular.js. Obviously this does not apply
@@ -57,7 +59,7 @@ Angular.js is just too **big and bloated** to be used as a toolset if you don’
 need most of the tools. If all you need is directives, you might just need Controls.
 
 
-# What is a Web Application?
+## What is a Web Application?
 
 The definition of "application" is the hard part. Here are some of the things that I think about:
 
@@ -72,7 +74,7 @@ and you do not need a JavaScript framework. You may simply need a tool to give
 yourself a little client-side functionality.
 
 
-# JS Frameworks are too big and bloated
+## JS Frameworks are too big and bloated
 
 I really want to reiterate this one. Any framework is just too "big and bloated"
 to be used as a toolset if you don’t need most of the tools. If all you wanted
@@ -81,7 +83,7 @@ If all you wanted was Underscore’s \_extend, only [use the function](http://un
 (paste that function in your code, documenting accordingly). If all you need is
 Angular#Directive, you might just need [Controls](https://github.com/schlegelrock/Control.js).
 
-# Final Thoughts
+## Final Thoughts
 
 JS Frameworks (in our case Angular.js) are wonderful. They provide a great set of
 tools to do all of the boring stuff no one wants to write. However, there is a common
