@@ -47,7 +47,7 @@ bin/compile BUILD_DIR CACHE_DIR ENV_DIR
 $ENV_DIR is that 3rd parameter, so we can use that for our benefit. Let's say we
 had a script that would check to make sure that you had a couple variables set,
 and would just echo them. Here's how you used to do it:
-```sh
+```bash
 # Former way of accomplishing this
 
 [ -z "$ENV_VAR1" ] && echo "You didn't set $ENV_VAR1, and this is required." && exit 1
@@ -56,7 +56,7 @@ and would just echo them. Here's how you used to do it:
 echo "HOORAY, you set the variables! ENV_VAR1: $ENV_VAR1; ENV_VAR2: $ENV_VAR2."
 ```
 
-```sh
+```bash
 # New way of doing it
 ENV_DIR=$3 # remember, it was the 3rd parameter passed in up there
 for KEY in ENV_VAR1 ENV_VAR2; do
