@@ -2,13 +2,16 @@
 layout: post
 category : javascript
 title: Should I use a JavaScript framework?
-tagline: "If you’re building a web app yes. Else no."
+tagline: <br />If you’re building a web app yes. Else no.
+summary: With the whole world of JavaScript changing around you, how do you know if you're supposed to be<br />using a JavaScript framework or not? Everyone seems to be, but you aren't. Or you are, and you're<br />not sure if that's the correct answer. Maybe I can help shed some light for you.
 tags : [framework, javascript, angular.js, ember.js, backbone.js]
 ---
 {% include JB/setup %}
 
 
-***tl;dr: If you’re building a web app yes. Else no.***
+## Overview
+With the whole world of JavaScript changing around you, how do you know if you're supposed to be using a JavaScript framework or not? Everyone seems to be, but you aren't. Or you are, and you're not sure if that's the correct answer. Maybe I can help shed some light for you.
+
 
 ## Purpose
 
