@@ -3,7 +3,7 @@ layout: post
 category : tools
 title: Heroku buildpack environment changes and you
 tagline: <br />What you [probably don't] want to know
-summary: Heroku allows you to set environment variables during the buildpack compilation stage of your build,<br />but the method of doing so is changing. Be advised.
+summary: Heroku allows you to set environment variables during the buildpack compilation stage of your build, but the method of doing so is changing. Be advised.
 tags : [tools, hosting, Heroku, buildpacks, env_dir, user-env-compile]
 ---
 {% include JB/setup %}

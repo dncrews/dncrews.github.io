@@ -3,7 +3,7 @@ layout: post
 category: webdev
 title: Localhost and Mobile Devices
 tagline: <br />What are your options, and how do you do them?
-summary: Web development is fun. Building a layout that is responsive to any device is a great thing.<br />Unfortunately, testing it in your desktop web browser is not always good enough, and you don't want<br />to "push to prod" without testing it properly on your phone. What can be done? Well, you've got a<br />couple choices, depending on what your requirements are.
+summary: Web development is fun. Building a layout that is responsive to any device is a great thing. Unfortunately, testing it in your desktop web browser is not always good enough, and you don't want to "push to prod" without testing it properly on your phone. What can be done? Well, you've got a couple choices, depending on what your requirements are.
 tags : [webdev, proxy, mobile]
 ---
 {% include JB/setup %}
